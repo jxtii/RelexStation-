@@ -1,0 +1,39 @@
+
+< meta name = "viewport” content=“width=device-width” ,initial-scale=1.0">
+
+
+
+body{
+	font-family:Cursive;
+	background-color:whitesmoke;
+	
+	
+}
+
+p{
+ 
+  font-family: Cursive; 
+  font-size : 22;
+  color:black;
+}
+
+h1{
+	font-family:Cursive;
+	color:thistle;
+	background-color:#fffafa;
+	text-align:center;
+	padding:24px;
+	
+	
+}
+
+h3,h4,h5{
+  font-family:Cursive;
+  font-size:24;
+  color:black
+}
+
+a{
+	text-decoration: none;
+}
+

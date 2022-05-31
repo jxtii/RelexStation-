@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head> <!-- start of head  -->
+<meta charset ="utf-8">
+
+<link rel="stylesheet" href="cssweb.css"> <!-- the link of the external sheet -->
+
+<title>Contact us</title> <!--title of this page -->
+
+
+</head> <!-- end of head -->
+
+
+
+<body> <!-- start of body  -->
+
+<h1> Contact us <h1>
+
+<h4>Please infom your information for contact:<h4>
+
+<form> <!-- start of form , it contains 12 elements ,and different types, like:radionbutton,textarea..etc-->
+
+<p><label>First Name:
+  <input name="fsname" type="string" placeholder="Jomana"/>  <!--string type -->
+</label></p>
+
+<p><label>Last Name:
+   <input name="lname" type "string" placeholder="Mahjoob"/> 
+   </label></p>
+
+<p><label>Gender:
+<label>Female <input name="female" type="radio"/></label> <!--radio button type -->
+<label>Male<input name="male" type="radio"/></label></p>
+
+<p><label>Date of Birth:
+<input name="dateofb" type= "date"/> <!-- date type -->
+</label></p>
+
+<p><label>Nationality:
+<input name="nationality" type="String" />
+</label></p>
+
+
+<p><label>Email address:
+<input name="email" type="email" placeholder="youremail@domain.com" required /> <!-- email type -->
+</label></p>
+
+
+<p><label>Phone Number:
+<input name="phonen" placeholder= "05-12345678"  
+pattern = "[05]{2}[0-9]{8}" /><!-- pattern is to make sure that the pone number is correct, it must start with 05 and be 10 digits -->
+(05-12345678) 
+</label></p>
+
+<p><label>reason for contact:
+<select name= "reason" required>
+<option selected >Choose a reason </option> 
+<option>Suggestion</option>
+<option>complaint</option>
+<option>other</option>
+</select>
+</label></p>
+
+
+<p><label>Your message:<br><br>
+<textarea name="comments" required 
+rows= "10" cols="60"></textarea>
+</label></p><!--if user didn't enter the message,it'll not be able to submit the form -->
+
+<p><label>Your preise language:
+<select name="language" 
+<option selected>choose a language</option> 
+<option>Arabic</option>
+<option>English</option>
+</label></p>
+
+<p>
+<input type="submit" value="submit"/> <!-- submit and reset type-->
+<input type="reset" value="reload"/>
+</p>
+
+</form> <!--end of form -->
+</body>
+
+
+
+</html>
